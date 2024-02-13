@@ -1,0 +1,203 @@
+body {
+    background: #b69991;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+    font-family: 'dmsans', sans-serif; /* Use the declared font-family */
+    
+}
+
+@font-face {
+    font-family: 'dmsans'; /* Choose a name for your font */
+    src: url('DMSans-Regular.ttf') format('truetype'); /* Update the path and format accordingly */
+}
+
+.header {
+    
+    background: #b69991;
+    margin-top: 40px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+
+}
+
+h1, h4 {
+    margin: 0;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+
+.boxes {
+    width: 70%;
+    margin: 20px auto;
+    background-color:rgb(247, 247, 247);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.title {
+    text-align: center;
+    background-color: #954040;
+    color: aliceblue;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+
+}
+
+.content {
+    text-align: left;
+    padding: 2%;
+}
+
+
+
+.childerenimg {
+    border-radius: 50%;
+    border: 10px solid #954040;
+    width: 140px;
+    text-align: right;
+    
+}
+
+.parentimg{
+    text-align: right;
+    width: 70%;
+    position:absolute;
+     top: 30px; 
+
+}
+
+/* Add media queries for responsiveness if needed */
+
+#headline{
+    background-color: aliceblue;
+    color: #954040;
+    width: 66%;
+    text-align: left;
+    margin-bottom: 5px;
+
+}
+
+#subheadline{
+    background-color: #954040;
+    color: aliceblue;
+   
+    margin-top: 5px;
+    text-align: left;
+    width: 66%;
+}
+
+.fw-bold{
+    color: #954040;
+}
+
+
+.bg-custom {
+    background-color: #954040; /* Set the desired background color */
+  }
+
+
+.custom-list-item{
+    border-radius: 20px;
+}
+
+
+
+
+  
+  .icon-link {
+    text-decoration: none;
+    color: #954040; /* Change the color as needed */
+    font-size: 18px; /* Change the font size as needed */
+    margin-right: 10px; /* Adjust spacing as needed */
+    text-align: center;
+}
+
+.icon-link:hover {
+    color: #de8787; /* Change the hover color as needed */
+}
+  
+
+.icon-link, mysvg{
+    
+    fill: #954040;
+    display: block;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+}
+
+#mysvg:hover{
+    color: #de8787;
+}
+
+#mysvg{
+    fill: #954040;
+    width: 18px;
+    height: 18px;
+}
+
+.iconmedia{
+    width: 24px;
+fill: #954040;
+color: #954040;
+
+}
+
+.icontable{
+    
+    text-align: center;
+    padding: 10px;
+}
+
+.icontable:hover{
+    color: #fff;
+}
+
+.iconitsellf{
+    border: #b19696 1px solid;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #954040;
+
+   
+}
+
+.iconitsellf:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(147, 69, 69);
+    text-decoration: #b19696;
+    text-emphasis-color: #fff;
+}
+
+.iconlink{
+    color: #954040;
+    text-decoration:none;
+    text-underline-offset: 0;
+    text-underline-position:above;
+    text-align: center;
+}
+
+.iconlink:hover{
+    color: aliceblue;
+}
+
+
+
+
+
+
